@@ -9,19 +9,20 @@ Ubuntu server 20.04
 need to install ansible first on your local machine (this machine is not vm, it is your laptop/desktop)
 
 execution:
-1) modified ansible config
-  command
+1. modified ansible config
+  command:
+  
   sudo nano /etc/ansible/ansible.cfg
     change 
-    (uncomment)host_key_checking = False
-    (change) timeout = 60
-    (uncomment)(change)allow_world_readable_tmpfiles = True
+   - (uncomment)host_key_checking = False
+   - (change) timeout = 60
+   - (uncomment)(change)allow_world_readable_tmpfiles = True
 
-2) create project directory and copy all the file into this folder 
+2. create project directory and copy all the file into this folder 
 
-3) change your vm ip inside hosts file 
+3. change your vm ip inside hosts file 
 
-4) execute the script 
+4. execute the script 
 
   step1 create unprivilage user and setup ssh connectivity and off swap  
   ansible-playbook -i hosts ~/kube-cluster/initial.yml
