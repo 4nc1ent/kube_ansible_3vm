@@ -1,10 +1,10 @@
 # kube_ansible_3vm
-Ansible scrip to install 3 vm into 1 kubernetes cluster (1 master , 2 node) 
+Ansible scrip to install 3 vm into 1 kubernetes cluster (1 master , 2 worker node) 
 
 Credites to digital ocean for the script , im just modified to suit local vm deployement
+need to deploy first:
   Vm: 3 
-  Os:
-  Ubuntu server 20.04 
+  Os: Ubuntu server 20.04 
 
 need to install ansible first on your local machine (this machine is not vm, it is your laptop/desktop)
 
