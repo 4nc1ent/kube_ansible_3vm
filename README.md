@@ -11,12 +11,12 @@ need to install ansible first on your local machine (this machine is not vm, it 
 execution:
 1. modified ansible config
    command:
-  
-   sudo nano /etc/ansible/ansible.cfg
-    - (uncomment)host_key_checking = False
-    - (change) timeout = 60
-    - (uncomment)(change)allow_world_readable_tmpfiles = True
-
+    ```
+     sudo nano /etc/ansible/ansible.cfg
+      - (uncomment)host_key_checking = False
+      - (change) timeout = 60
+      - (uncomment)(change)allow_world_readable_tmpfiles = True
+    ```
 2. create project directory and copy all the file into this folder 
 
 3. change your vm ip inside hosts file 
