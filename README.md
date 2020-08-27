@@ -1,4 +1,4 @@
-# automatic ansible script to deploy 3 vm ubuntu into 1 kubenetes cluster
+# Automation ansible script to deploy 3 vm ubuntu into 1 kubenetes cluster
 Ansible scrip to install 3 vm into 1 kubernetes cluster (1 master , 2 worker node) 
 
 Credites to digital ocean for the script , im just modified to suit local vm deployement
