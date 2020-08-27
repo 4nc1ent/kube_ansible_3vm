@@ -24,24 +24,24 @@ execution:
 4. execute the script 
   
    1. step1 create unprivilage user and setup ssh connectivity and off swap  
-  
-   ansible-playbook -i hosts ~/kube-cluster/initial.yml
-  
+      ```
+       ansible-playbook -i hosts ~/kube-cluster/initial.yml
+      ```
   
    2. step2 install kubenetes , docker and its depedency 
-  
-   ansible-playbook -i hosts ~/kube-cluster/kube-dependencies.yml
-  
+      ```
+       ansible-playbook -i hosts ~/kube-cluster/kube-dependencies.yml
+      ```
   
    3. step3 setup master node
-  
-   ansible-playbook -i hosts ~/kube-cluster/master.yml
-  
+      ```
+       ansible-playbook -i hosts ~/kube-cluster/master.yml
+      ```
   
    4. step4 setup and joine worker node to master node
-  
-   ansible-playbook -i hosts ~/kube-cluster/workers.yml
-  
+      ```
+       ansible-playbook -i hosts ~/kube-cluster/workers.yml
+      ```
   
   
  done.
