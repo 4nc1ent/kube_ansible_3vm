@@ -19,6 +19,20 @@ execution:
 
 2) create project directory and copy all the file into this folder 
 
+3) change your vm ip inside hosts file 
+
+4) execute the script 
+  1) create unprivilage user and setup ssh connectivity and off swap  
+  ansible-playbook -i hosts ~/kube-cluster/initial.yml
+  2) install kubenetes , docker and its depedency 
+  ansible-playbook -i hosts ~/kube-cluster/kube-dependencies.yml
+  3)setup master node
+  ansible-playbook -i hosts ~/kube-cluster/master.yml
+  4)setup and joine worker node to master node
+  ansible-playbook -i hosts ~/kube-cluster/workers.yml
+  
+  done.
+  
 
 
 
