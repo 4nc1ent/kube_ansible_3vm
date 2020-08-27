@@ -1,12 +1,12 @@
 [masters]
-master ansible_host=172.16.249.128
+master ansible_host=<enter master ip here>
 
 [workers]
-worker1 ansible_host=172.16.249.129
-worker2 ansible_host=172.16.249.130
+worker1 ansible_host=<enter worker1 ip here>
+worker2 ansible_host=<enter worker2 ip here>
 
 [all:vars]
-ansible_user=id4l
-ansible_ssh_pass=123456
-ansible_sudo_pass=123456
+ansible_user=<enter user here>
+ansible_ssh_pass=<enter pass here>
+ansible_sudo_pass=<enter sudo pass here>
 ansible_python_interpreter=/usr/bin/python3
