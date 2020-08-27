@@ -5,11 +5,11 @@ Credites to digital ocean for the script , im just modified to suit local vm dep
 
    *****Need to deploy first:Vm: 3 , Os: Ubuntu server 20.04**
 
-   ****Dont forget to snapshot ur vm first before begin - just in case**
+   ****Need to install Ansible on your machine first (this machine is not the VM , its your desktop/machine)**
 
-   ****Dont forget to snapshot ur vm first before begin - just in case**
+   ****Take a snapshot of your VM first before start, just in case**
 
-   ****Dont forget to snapshot ur vm first before begin - just in case**
+   ****Make sure your VM has internet connectivity**
 
 execution:
 1. modified ansible config
