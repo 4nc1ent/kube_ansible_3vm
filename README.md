@@ -1,5 +1,5 @@
-# Automation ansible script to deploy 3 vm ubuntu into 1 kubenetes cluster
-Ansible scrip to install 3 vm into 1 kubernetes cluster (1 master , 2 worker node) 
+# Automation ansible script to setup 3 vm ubuntu into 1 kubenetes cluster
+Ansible scrip to setup 3 vm into 1 kubernetes cluster (1 master , 2 worker node) 
 
 Credites to digital ocean for the script , im just modified to suit local vm deployement
 
@@ -8,6 +8,8 @@ Credites to digital ocean for the script , im just modified to suit local vm dep
 **Need to install ansible first on your local machine (this machine is not vm, it is your laptop/desktop)**
 
 **Dont forget to snapshot ur vm first before begin - just in case**
+
+**Make sure your VM has internet connectivity**
 
 execution:
 1. modified ansible config
